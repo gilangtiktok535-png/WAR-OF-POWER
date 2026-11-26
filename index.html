@@ -4127,12 +4127,7 @@
         return showToast(`Diamond tidak cukup! Butuh ${cost} Diamond.`, 'error');
       }
 
-      isSpinning = true;
-      user.diamond -= cost;
-      user.stats = user.stats || {};
-      user.stats.spinCount = (user.stats.spinCount || 0) + count;
-      await saveUser(user);
-      renderApp();
+      
 
       function pickWeightedItem() {
         const items = machine.items;
