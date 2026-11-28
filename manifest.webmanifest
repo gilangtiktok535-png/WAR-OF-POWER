@@ -1,0 +1,26 @@
+{
+  "id": "/WAR-OF-POWER/",
+  "name": "WAR OF POWER",
+  "short_name": "WAR OF POWER",
+  "description": "Game WAR OF POWER",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#070b14",
+  "theme_color": "#070b14",
+  "icons": [
+    {
+      "src": "wop-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "wop-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
